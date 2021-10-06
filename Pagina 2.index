@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+	<title>Pagina 2</title>
+	<meta charset="utf-8" />
+
+</head>
+
+<body>
+	<header>
+		Pagina 2
+	</header>
+
+	<section>
+		<header>
+			<a href="javascript:history.back()"> Volver Atrás</a>
+		</header>
+		<article>
+			<p>  </p>
+		
+		</article>	
+	</section>
+	<footer>
+	<p>
+	</p>
+	</footer>
+</body>
+
+</html>
