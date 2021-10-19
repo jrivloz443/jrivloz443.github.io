@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+	<title>Aplicaciones WEB-Ejercicios html</title>
+	<meta charset="utf-8" />
+
+</head>
+
+<body>
+	<header>
+		<center>
+		<h1>AlphaTest</h1>
+		</center>
+	</header>
+	<center>
+	<img src="Mazda.jpg" widht="700" height="500">
+	</center>
+	<header>
+		<h2>Enlaces de interes
+		</h2>
+		
+	</header>
+
+	<section>
+		<header>
+	
+		</header>	
+				<li> <a href="Pagina Principal.html">Inicio</a>
+				</li>
+			</ul>	
+			
+			</ul>	
+	
+			<ul>
+			
+				<li> <a href="Detalles.html">Detalles</a> 
+				</li>
+			</ul>	
+			
+			<ul>
+			
+				<li> <a href="Contactos.html">Contacto</a> 
+				</li>
+			</ul>	
+			<ul>
+			
+				<li> <a href="https://www.mazda.es/"target="_BLANK">Otra página web</a> 
+				</li>
+			</ul>	
+			<h3>Mazda Motor</h3>
+			 <p> Corporation (en japonés: マツダ, Matsuda?) es un fabricante de automóviles japonés, fundada en 1920, con sede principal en Hiroshima, y con plantas en las localidades de Hiroshima (factoría de Ujina), Nishinoura, Nakanoseki (Hofu) y Miyoshi, Japón.</p>
+		<img src="Mazda1.png" widht="200" height="200">
+		</ul>
+	<li>
+		Mazda rx-7
+	</ul>
+	</li>
+	<ul>
+	<li>
+		Mazda rx-8
+	</ul>
+	</li>
+		<ul>
+	<li>
+		Mazda mx-5
+	</ul>
+	</li>
+	<ul>
+	<li>
+		Mazda cv-30
+	</ul>
+	</li>
+	<ul>
+	<li>
+		Mazda cv3
+	</ul>
+	</li>
+		<footer> Juan Antonio Rivera Lozano 	2021</footer>
