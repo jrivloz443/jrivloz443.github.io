@@ -1,96 +1,99 @@
 	<!DOCTYPE html>
 <html lang="es">
-
-
 <head>
- <style type="text/css">
-            body {
-                background-color: lightblue;
-            }
- </style> 
- <ul>
-  <li>
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="user_name">
-  </li>
-  <li>
-    <label for="mail">Correo electrónico:</label>
-    <input type="email" id="mail" name="user_mail">
-  </li>
-  <li>
-    <label for="msg">URL:</label>
-  <input type="text" value="Escribe la url de tu página">
- </ul>
- <ul>
- <li>
- 	 <label for="msg">Fecha:</label>
-<input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2021-12-31">
-       
-</li>
-</ul> 
-	<ul>
-	<li>
-	<label for="msg">Tiempo:</label>
-	<input type="time" id="appt" name="appt"
-       min="09:00" max="18:00" required>
-</li>
-</ul>
-<ul>
-<li>	
-	<label for="msg">Fecha y hora</label>
-	<input type="datetime" name="tiemporeunion"> 
-</ul>
-</li>
+       <link rel="stylesheet" href="formulario_2.css" >
+ </head>
+ <div id="contenedor">
+       <div>
+         <p><ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+              </li>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+              </li>
+              <li>
+                <label for="msg">URL:</label>
+              <input type="text" value="Escribe la url de tu página">
+             </ul>
+             <ul>
+             <li>
+                     <label for="msg">Fecha:</label>
+            <input type="date" id="start" name="trip-start"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2021-12-31">
+                   
+            </li>
+            </ul> 
+                   <ul>
+                   <li>
+                   <label for="msg">Tiempo:</label>
+                   <input type="time" id="appt" name="appt"
+                   min="09:00" max="18:00" required>
+            </li>
+            </ul>
+            <ul>
+            <li>	
+                   <label for="msg">Fecha y hora</label>
+                   <input type="datetime" name="tiemporeunion"> 
+            </ul>
+            </li></p>
+       </div>
+       <div>
+         <p><ul>
+              <li>
+                     <label for="msg">Mes</label>
+                     <input type="month" name="mes"
+                       value="2021-01" min="2021-01" max="2021-12" step="2" />	
+              </ul>
+              </li>
+              
+              <ul>
+              <li>
+              
+              <label for="week">Semana</label>
+              <input id="week" type="week" name="week" value="2021-W01">
+              </ul>
+              </li>	
+              <ul>
+              <li>
+              
+              <label for="numero">Numero(-10/10):</label>
+              
+              <input type="number" id="numero" name="Numero"
+                     min="-10" max="10"/>
+              </ul>
+              </li>
+              
+              <ul>
+              <li>
+              <label for="telefono">Telefono</label>
+              <input type="tel" name="telefono" pattern="[0-9]{9}">
+                       
+              
+              </ul>
+              </li>
+              
+              <ul>
+              <li>
+              <label for="Término de busqueda">Término de busqueda:</label>
+              <input type="search" id="site-search" name="q"
+                     aria-label="Search through site content">
+              </ul>
+              </li>
+              <ul>
+              <li>
+               <label for="Color favorito">Color favorito:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+                <input type="submit">
+              
+              </ul>
+              </li></p>
+       </div>
+     </div>
+ 
 
 
-<ul>
-<li>
-	<label for="msg">Mes</label>
-	<input type="month" name="mes"
-         value="2021-01" min="2021-01" max="2021-12" step="2" />	
-</ul>
-</li>
 
-<ul>
-<li>
-
-<label for="week">Semana</label>
-<input id="week" type="week" name="week" value="2021-W01">
-</ul>
-</li>	
-<ul>
-<li>
-
-<label for="numero">Numero(-10/10):</label>
-
-<input type="number" id="numero" name="Numero"
-       min="-10" max="10"/>
-</ul>
-</li>
-
-<ul>
-<li>
-<label for="telefono">Telefono</label>
-<input type="tel" name="telefono" pattern="[0-9]{9}">
-	  
-
-</ul>
-</li>
-
-<ul>
-<li>
-<label for="Término de busqueda">Término de busqueda:</label>
-<input type="search" id="site-search" name="q"
-       aria-label="Search through site content">
-</ul>
-</li>
-<ul>
-<li>
- <label for="Color favorito">Color favorito:</label>
-  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
-  <input type="submit">
-
-</ul>
-</li>
