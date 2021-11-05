@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
+  label{
+      font-size: large;
+      font-style: oblique;
+  }
