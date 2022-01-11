@@ -1,4 +1,3 @@
-
 h1{
     font-size: 2.3em;
 	line-height: 1.3em;
@@ -45,10 +44,26 @@ body{
 
 .item1 {
     display: flex;
-    text-align: center;
+    text-align: end;
     border: 3px solid rgb(255, 255, 255);
     background-color: black;
     color: white;
     height: 200px;
     width: 50%;
+}
+
+#caja1 {
+    color: yellow;
+}
+
+#caja2 {
+    color: violet;
+}
+
+#caja3 {
+    color:  orange;
+}
+
+#caja4 {
+    color: lime;
 }
